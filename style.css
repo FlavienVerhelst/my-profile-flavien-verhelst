@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	background-color: rgba(23,173,203,0.4);
+	font-family: "Roboto";
+	text-align : center;
+}
+i {
+	font-size: 40px;
+	color: grey;
+}
+div{
+	background-color: floralwhite;
+	padding : 24px;
+	margin : 32px auto;
+	border-radius: 7px;
+	width : 70%;
+	box-shadow : 12px 12px 12px 1px rgba(0, 0, 255, .2);
+}
+a {
+	text-decoration: none;
+}
+.button-blue{
+	background-color: lightgrey;
+	color : black;
+	padding : 8px;
+	text-decoration : none;
+	border-radius: 7px;
+}
+.button-blue:hover {
+	background-color: floralwhite;
+}
+.list-inline li {
+	display: inline;
+	margin: 0 8px;
+}
+.list-inline{
+	padding-inline-start: 0px;
+}
+.img-circle{
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+}
+#icon-foot{
+	font-size: 24px;
+}
+#logo-facebook:hover {
+	color: #4267B2;
+}
+#logo-snapchat:hover {
+	color: #FFFC00;
+}
+#logo-instagram:hover {
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
